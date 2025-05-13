@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f4f4f4;
+    }
+
+    .highlight {
+      color: #e91e63;
+      font-weight: bold;
+    }
+
+    .dynamic-box {
+      padding: 1rem;
+      margin-top: 1rem;
+      background-color: #d1ecf1;
+      border: 1px solid #bee5eb;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="page-title">Welcome to My Interactive Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="main-text">Click the button below to see some magic!</p>
+      <button id="change-text-btn">Change Text</button>
+      <button id="toggle-style-btn">Toggle Style</button>
+      <button id="add-box-btn">Add Box</button>
+      <button id="remove-box-btn">Remove Box</button>
+    </section>
+
+    <section id="box-container"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Interactive Demo</p>
+  </footer>
+
+</body>
+</html>
